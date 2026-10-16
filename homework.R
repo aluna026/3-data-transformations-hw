@@ -3,6 +3,9 @@
 # For full credit, provide answers for at least 7/11
 
 # List names of students collaborating with:
+# Krista Bebis
+# Madeline Hoorn
+# Megan Richardson
 
 ### SETUP: RUN THIS BEFORE STARTING ----------
 
@@ -105,7 +108,7 @@ ds %>%
 ds <- ds %>%
   mutate(year = if_else(year == 1879, 1979, year))
 
-# unsure if it's good practice to add the code again here to show I'm re-running it or if its okay to 
+# unsure if it's good practice to add the code again here to show I'm re-running it or if its okay to
 # just go back and run the code in questions 6-7
 ds <- mutate(ds, decade = floor(year / 10) * 10)
 
